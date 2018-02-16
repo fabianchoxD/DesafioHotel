@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+aside {
+  float: left;
+  width: 30%;
+  display: inline-block;
+  background-color: white;
+  margin-left: 1.5%;
+} 
+
+section {
+  float: left;
+  width: 65%;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 500px) {
+
+aside {
+  float: left;
+  width: 100%;
+  display: inline-block;
+  background-color: white;
+  margin-left: 0;
+
+} 
+
+section {
+  float: left;
+  width: 80%;
+  display: inline-block;
+}
+}
+
+ul{
+      margin-left: 45px;
+}
