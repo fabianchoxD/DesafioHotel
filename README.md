@@ -6,7 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 * `download or clone this repo: ` to obtain all the project.
-* `run npm start` To initialize React.JS app and the go to: 
+* `run npm install: ` To download all the node modules.
+* `run npm start:` To initialize React.JS app and the go to: 
 
 ```
 localhost:3000
