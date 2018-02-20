@@ -10,15 +10,13 @@ class App extends Component {
     super(props);
   
     this.state = {
-      filterText: '',
-      filterStars: ''
+      filterText: ''
     };
   }
 
   filterUpdate(value){
     this.setState({
-      filterText: value,
-      filterStars: value
+      filterText: value
     })
   }
 
