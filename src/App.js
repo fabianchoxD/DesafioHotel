@@ -10,13 +10,15 @@ class App extends Component {
     super(props);
   
     this.state = {
-      filterText: ''
+      filterText: '',
+      filterStars: ''
     };
   }
 
   filterUpdate(value){
     this.setState({
-      filterText: value
+      filterText: value,
+      filterStars: value
     })
   }
 
@@ -24,7 +26,7 @@ class App extends Component {
     //console.log('FilterText state from parent Component', this.state.filterText)
     return (
       <div>
-          <NavigationHeader/>       
+          <NavigationHeader/>          
           <Search 
             filterText={this.state.filterText}
             filterUpdate={this.filterUpdate.bind(this)}
